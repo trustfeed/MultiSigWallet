@@ -1,47 +1,46 @@
-.nav, .pagination, .carousel, .panel-title a {
-    cursor: pointer;
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+  cursor: pointer;
 }
 
 .navbar {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .popover {
-    max-width: 450px;
-    color: #87949c;
+  max-width: 450px;
+  color: #87949c;
 }
 
 h1 {
-    font-size: 40px !important;
+  font-size: 40px !important;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    padding-top: 70px;
-    background-image: url(../img/gnosis-logo.svg);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: 512px;
-    background-attachment: fixed;
+  padding-top: 70px;
 }
 
-.navbar-brand > img {
-    height: 32px;
-    margin-top: -6px;
+.navbar-brand>img {
+  height: 32px;
+  margin-top: -6px;
 }
 
-.tx-data{
+.tx-data {
   word-wrap: break-word;
 }
-.popover{
+
+.popover {
   word-wrap: break-word;
 }
 
 table.collapse.in {
-   display: table;
+  display: table;
 }
 
 textarea.json-config {
@@ -53,50 +52,53 @@ textarea.json-config {
   display: block;
 }
 
-.online-status{
-  color: #008000; /* green */
-}
-.offline-status{
-  color: #f5231c; /* red */
+.online-status {
+  color: #008000;
+  /* green */
 }
 
-.wallet-icon{
+.offline-status {
+  color: #f5231c;
+  /* red */
+}
+
+.wallet-icon {
   max-width: 20px;
 }
 
 .prevent-focus:focus {
-  outline:0 !important;
+  outline: 0 !important;
   text-decoration: none !important;
-  border:none !important;
+  border: none !important;
 }
 
 .list-decimal {
   list-style-type: decimal;
 }
 
-.sk-circle .sk-child:before{
+.sk-circle .sk-child:before {
   background-color: white !important;
 }
 
 /*.ui-select-choices-row:hover {
-  background-color: #143e4d !important;
+  background-color: #125a92 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row>span:hover {
-  background-color: #143e4d !important;
+  background-color: #125a92 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row.active > span {
-  background-color: #143e4d !important;
-  color: #1f7692 !important;
+  background-color: #125a92 !important;
+  color: #537ad2 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row > span {
-  color: #1f7692 !important;
+  color: #537ad2 !important;
 }
 
 .ui-select-bootstrap .ui-select-choices-row > span:hover {
-  color: #1f7692 !important;
+  color: #537ad2 !important;
 }*/
 
 input[name="editable-select"]:disabled {
@@ -105,7 +107,7 @@ input[name="editable-select"]:disabled {
 
 .editable-select {
   color: #fff;
-  background: #143e4d;
+  background: #125a92;
 }
 
 .settings-dropdown-menu {
@@ -121,12 +123,12 @@ input[name="editable-select"]:disabled {
 }
 
 .settings-dropdown-menu li:hover {
-  background: #143e4d !important;
-  color: #1f7692 !important;
+  background: #125a92 !important;
+  color: #537ad2 !important;
 }
 
 .settings-caret-container {
-  background: #143e4d !important;
+  background: #125a92 !important;
 }
 
 .seed {
@@ -136,7 +138,7 @@ input[name="editable-select"]:disabled {
 }
 
 .alert-fail {
-    color: #f7d30e;
+  color: #f7d30e;
 }
 
 .not-on-chain-wallet {
@@ -144,30 +146,31 @@ input[name="editable-select"]:disabled {
 }
 
 .top-10 {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .top-20 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .ui-notification {
   top: 50px !important;
 }
 
-.imprint{
+.imprint {
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100vw;
-  background: #182a36;
+  background: #181d36;
   padding: 0;
   text-align: center;
 }
-.imprint a{
+
+.imprint a {
   color: white;
 }
 
 ::selection {
   background: #b3c3ce;
-  }
+}

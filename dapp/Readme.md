@@ -1,16 +1,15 @@
-Ethereum Multisignature Wallet UI
-===================
+# Ethereum Multisignature Wallet UI
 
-A web user interface for the [MultiSigWallet](https://github.com/gnosis/MultiSigWallet).
+A web user interface for the [MultiSigWallet](https://github.com/gnosis/daobase-wallet).
 
-Requirements
--------------
-* Node v5+
-* [Grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
-* [bower](https://bower.io/#install-bower)
+## Requirements
 
-Install
--------------
+- Node v5+
+- [Grunt-cli](http://gruntjs.com/getting-started#installing-the-cli)
+- [bower](https://bower.io/#install-bower)
+
+## Install
+
 ```
 npm install -g bower
 npm install -g grunt-cli
@@ -19,8 +18,8 @@ bower install
 grunt
 ```
 
-Test
--------------
+## Test
+
 ```
 npm test
 ```
